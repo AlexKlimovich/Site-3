@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.button_main {
+  background-color: var(--button-color);
+  color: var(--text-button-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.button_main:hover {
+  background: var(--button-hover);
+}
