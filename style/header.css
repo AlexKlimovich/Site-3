@@ -97,7 +97,7 @@
 
   .header__nav-list {
     gap: clamp(10px, 3vw, 40px);
-    font-size: clamp(10px, 2vw, 14px);
+    font-size: clamp(10px, 1.5vw, 14px);
   }
 
   .header__title {
