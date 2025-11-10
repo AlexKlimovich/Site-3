@@ -103,17 +103,6 @@
   }
 }
 
-/* @media (min-width: 575px) and (max-width: 920px) {
-  .offers__offer {
-    gap: clamp(15px, 1.5vw, 39px);
-  }
-
-  .offers__offer_content {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-} */
-
 @media (min-width: 375px) and (max-width: 575px) {
   .articles__content {
     padding-top: 90px;
