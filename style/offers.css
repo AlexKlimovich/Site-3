@@ -1,0 +1,125 @@
+.offers {
+  background-color: var(--main-bg);
+  padding-top: 68px;
+  padding-bottom: 78px;
+}
+
+.offers__content {
+  margin: 0 auto;
+}
+
+.offers__text {
+  text-align: center;
+  color: var(--text-second-color);
+  padding-bottom: 64px;
+}
+.offers__title {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 900;
+}
+
+.offers__description {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 8px;
+}
+.offers__offer {
+  display: flex;
+  width: 100%;
+  max-width: 1088px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 45px;
+}
+
+.offers__offer_content {
+  font-size: 18px;
+  line-height: 31px;
+  color: var(--text-second-color);
+}
+
+@media (min-width: 575px) and (max-width: 1024px) {
+  .offers {
+    background-color: var(--main-bg);
+    padding-top: 68px;
+    padding-bottom: 78px;
+  }
+
+  .offers__content {
+    margin: 0 auto;
+  }
+
+  .offers__text {
+    padding-bottom: 65px;
+  }
+
+  .offers__offer {
+    display: flex;
+    width: 100%;
+    max-width: 906px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 39px;
+  }
+
+  .offers__offer_content {
+    font-size: clamp(10px, 1.5vw, 14px);
+    line-height: 21.5px;
+    color: var(--text-second-color);
+  }
+}
+
+@media (min-width: 575px) and (max-width: 920px) {
+  .offers__offer {
+    gap: clamp(15px, 1.5vw, 39px);
+  }
+
+  .offers__offer_content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .offers {
+    padding-top: 50px;
+    padding-bottom: 84px;
+  }
+
+  .offers__content {
+    margin: 0 auto;
+  }
+
+  .offers__text {
+    text-align: center;
+    color: var(--text-second-color);
+    padding-bottom: 50px;
+  }
+  .offers__title {
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 900;
+  }
+
+  .offers__description {
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: 8px;
+  }
+  .offers__offer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+  }
+
+  .offers__offer_content {
+    width: 183px;
+    text-align: center;
+  }
+}

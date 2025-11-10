@@ -76,6 +76,8 @@
 
 .header__subscribe-btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 136px;
   padding: 19px 38px;
   transition: 0.25s;
