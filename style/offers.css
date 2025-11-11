@@ -122,4 +122,8 @@
     width: 183px;
     text-align: center;
   }
+
+  .offers__offer_img {
+    transform: rotate(90deg);
+  }
 }
